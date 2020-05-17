@@ -23,6 +23,6 @@ function greet(timeString) {
 
 /* Write your implementation of displayMessage() */
 function displayMessage(oneString) {
-  const newHeader = document.createElement("h1");
-  newHeader = greet();
+  document.querySelector("#greeting").innerText = oneString
+  return
 }
