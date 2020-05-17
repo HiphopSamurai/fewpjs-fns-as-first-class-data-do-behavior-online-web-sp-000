@@ -24,5 +24,5 @@ function greet(timeString) {
 /* Write your implementation of displayMessage() */
 function displayMessage(oneString) {
   let newHeader = document.createElement("h1");
-  newHeader = greet(timeString);
+  newHeader = greet();
 }
