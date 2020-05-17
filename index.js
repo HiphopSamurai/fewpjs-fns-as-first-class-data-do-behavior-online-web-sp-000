@@ -14,7 +14,7 @@ function greet(timeString) {
   const time = timeString.split(' ');
   if (parseInt(time[0]) < 12) {
     return 'Good Morning';
-  }else if (parseInt(time[0]) > 12 && time < 17 ) {
+  }else if (parseInt(time[0]) > 12 && parseInt(time[0]) < 17 ) {
       return 'Good Afternoon';
     }else {
       return 'Good Evening'
